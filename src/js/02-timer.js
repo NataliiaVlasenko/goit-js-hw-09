@@ -32,7 +32,7 @@ const options = {
 
         startBtn.removeAttribute('disabled');
         startBtn.addEventListener('click', timerOn);
-        
+        dateInput.style.borderColor = "black";
     }
   },
 };
